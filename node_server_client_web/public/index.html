@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!-- ESTO ES UN COMENTARIO-->
+
+<html>
+
+    <head>
+        <title> Mi página</title>
+        <script type="text/javascript" src="socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h2>Monitoreo y Control</h2>
+        <div id="div_sensor"></div>
+        <div id="div_grafica"></div>
+        <div id="div_tecla"></div>
+        <!-- 
+        <div id="my_div"></div>
+        -->
+        <br><br>
+        <div>
+            <input type="button" class="button button1" value="ENCENDER LED" onclick="encender()">
+            <input type="button" class="button button1" value="APAGAR LED" onclick="apagar()">
+            <br>
+            <br> 
+            <input type="text" id="txt_comando">
+            <input type="button" class="button button1" value="ENVIAR COMANDO" onclick="enviar_comando()">
+        </div>
+        
+
+    </body>
+
+
+
+</html>
